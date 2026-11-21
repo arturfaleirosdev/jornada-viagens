@@ -1,3 +1,5 @@
+@import url(global.css);
+
 header {
   background-color: var(--background-tertiary-color);
   display: flex;
@@ -28,12 +30,13 @@ nav {
   display: none;
 }
 
-.list-links li {
-  color: var(--text-secondary-color);
-}
-
 .list-links {
   list-style: none;
+  font-weight: var(--menu-text-weight);
+}
+
+.list-links li {
+  margin: 16px 0;
 }
 
 .list-links li a {
